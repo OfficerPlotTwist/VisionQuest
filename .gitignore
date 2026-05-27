@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output
+packages/core/dist/
+dist/
+build/
+
+# Vendored / provisioned Python runtime (reproducible, not source)
+Python/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs / OS cruft
+*.log
+.DS_Store
+Thumbs.db
